@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-blue:#0A3A78;
+  --brand-green:#28D7A3;
+}
+
+.gradient-hero{
+  background:
+    radial-gradient(1200px 600px at 20% 10%, rgba(40,215,163,.25), transparent 50%),
+    radial-gradient(1200px 600px at 80% 10%, rgba(10,58,120,.25), transparent 50%),
+    linear-gradient(180deg, #0b1630 0%, #0a1220 100%);
+}
